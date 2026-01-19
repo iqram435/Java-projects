@@ -121,48 +121,48 @@ public class FirstPage extends JFrame implements MouseListener, ActionListener {
             logoutbtn.setBackground(c4);
             logoutbtn.setForeground(Color.BLACK);
         }
-		if(me.getSource() == shpnbtn1){
+		else if(me.getSource() == shpnbtn1){
 			shpnbtn1.setBackground(c3);
 			shpnbtn1.setForeground(Color.BLACK);
 		}
 
-		if(me.getSource() == shpnbtn2){
+		else if(me.getSource() == shpnbtn2){
 			shpnbtn2.setBackground(c3);
 			shpnbtn2.setForeground(Color.BLACK);
 		}
 
-		if(me.getSource() == shpnbtn3){
+		else if(me.getSource() == shpnbtn3){
 			shpnbtn3.setBackground(c3);
 			shpnbtn3.setForeground(Color.BLACK);
         }
 		
-	    if(me.getSource() == bgcbtn){
-        bgcbtn.setBackground(c3);
-        bgcbtn.setForeground(Color.BLACK);
+	    else if(me.getSource() == bgcbtn){
+        	bgcbtn.setBackground(c3);
+       		bgcbtn.setForeground(Color.BLACK);
 		}
     }
 
-    public void mouseExited(MouseEvent me) {
+ public void mouseExited(MouseEvent me) {
         if(me.getSource()==logoutbtn){
             logoutbtn.setForeground(Color.WHITE);
             logoutbtn.setBackground(c2);
         }
 		
-		if(me.getSource() == shpnbtn1){
-        shpnbtn1.setForeground(Color.WHITE);
-        shpnbtn1.setBackground(c2);
+		else if(me.getSource() == shpnbtn1){
+       		shpnbtn1.setForeground(Color.WHITE);
+        	shpnbtn1.setBackground(c2);
 		}
 
-		if(me.getSource() == shpnbtn2){
-        shpnbtn2.setForeground(Color.WHITE);
-        shpnbtn2.setBackground(c2);
+		else if(me.getSource() == shpnbtn2){
+        	shpnbtn2.setForeground(Color.WHITE);
+       		shpnbtn2.setBackground(c2);
 		}
 
-		if(me.getSource() == shpnbtn3){
-        shpnbtn3.setForeground(Color.WHITE);
-        shpnbtn3.setBackground(c2);
+		else if(me.getSource() == shpnbtn3){
+        	shpnbtn3.setForeground(Color.WHITE);
+        	shpnbtn3.setBackground(c2);
 		}
-		if(me.getSource() == bgcbtn){
+		else if(me.getSource() == bgcbtn){
 			bgcbtn.setForeground(Color.WHITE);
 			bgcbtn.setBackground(c2);
 		}
