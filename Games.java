@@ -55,7 +55,7 @@ public class Games extends JFrame implements MouseListener, ActionListener {
         panel.add(logoutbtn);
 
         prbtn1 = new JButton("Buy");
-        prbtn1.setBounds(188,360,90,40);
+        prbtn1.setBounds(220, 300, 90, 30);
         prbtn1.setForeground(Color.WHITE);
         prbtn1.setBackground(c2);
         prbtn1.setFocusPainted(false);
@@ -64,7 +64,7 @@ public class Games extends JFrame implements MouseListener, ActionListener {
         panel.add(prbtn1);
 
         prbtn2 = new JButton("Buy");
-        prbtn2.setBounds(466,360,90,40);
+        prbtn2.setBounds(466, 300, 90, 30);
         prbtn2.setForeground(Color.WHITE);
         prbtn2.setBackground(c2);
         prbtn2.setFocusPainted(false);
@@ -72,42 +72,42 @@ public class Games extends JFrame implements MouseListener, ActionListener {
         prbtn2.addActionListener(this);
         panel.add(prbtn2);
 
-		prbtn3 = new JButton("Buy");
-        prbtn3.setBounds(744,360,90,40);
+        prbtn3 = new JButton("Buy");
+        prbtn3.setBounds(710, 300, 90, 30);
         prbtn3.setForeground(Color.WHITE);
         prbtn3.setBackground(c2);
         prbtn3.setFocusPainted(false);
         prbtn3.setFont(f2);
         prbtn3.addActionListener(this);
         panel.add(prbtn3);
-		
-		prbtn4 = new JButton("Buy");
-        prbtn4.setBounds(188,660,90,40);
+
+        prbtn4 = new JButton("Buy");
+        prbtn4.setBounds(220, 620, 90, 30);
         prbtn4.setForeground(Color.WHITE);
         prbtn4.setBackground(c2);
         prbtn4.setFocusPainted(false);
         prbtn4.setFont(f2);
         prbtn4.addActionListener(this);
         panel.add(prbtn4);
-		
-		prbtn5 = new JButton("Buy");
-        prbtn5.setBounds(466,660,90,40);
+
+        prbtn5 = new JButton("Buy");
+        prbtn5.setBounds(466, 620, 90, 30);
         prbtn5.setForeground(Color.WHITE);
         prbtn5.setBackground(c2);
         prbtn5.setFocusPainted(false);
         prbtn5.setFont(f2);
         prbtn5.addActionListener(this);
         panel.add(prbtn5);
-		
-		prbtn6 = new JButton("Buy");
-        prbtn6.setBounds(744,660,90,40);
+
+        prbtn6 = new JButton("Buy");
+        prbtn6.setBounds(710, 620, 90, 30);
         prbtn6.setForeground(Color.WHITE);
         prbtn6.setBackground(c2);
         prbtn6.setFocusPainted(false);
         prbtn6.setFont(f2);
         prbtn6.addActionListener(this);
         panel.add(prbtn6);
-		
+
         bgimg = new ImageIcon("Images/pbg.png");
         bgimglbl = new JLabel(bgimg);
         bgimglbl.setBounds(0,0,1024,768);
@@ -155,6 +155,23 @@ public class Games extends JFrame implements MouseListener, ActionListener {
             FirstPage fp = new FirstPage(usern,null);
             fp.setVisible(true);
         }
-
+        else if (ae.getSource()==prbtn1) {
+            JOptionPane.showMessageDialog(null, "Added To Cart");
+        }
+        else if (ae.getSource()==prbtn2) {
+            JOptionPane.showMessageDialog(null, "Added To Cart");
+        }
+        else if (ae.getSource()==prbtn3) {
+            JOptionPane.showMessageDialog(null, "Added To Cart");
+        }
+        else if (ae.getSource()==prbtn4) {
+            JOptionPane.showMessageDialog(null, "Added To Cart");
+        }
+        else if (ae.getSource()==prbtn5) {
+            JOptionPane.showMessageDialog(null, "Added To Cart");
+        }
+        else if (ae.getSource()==prbtn6) {
+            JOptionPane.showMessageDialog(null, "Added To Cart");
+        }
     }
 }
